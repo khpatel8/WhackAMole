@@ -1,0 +1,721 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "sizeOfView"
+- "notWhiteColor"
+- "notBlackColor"
+- "GameViewController"
+provides-nominal:
+- "10WhackAMole18GameViewControllerC"
+provides-member:
+- ["10WhackAMole18GameViewControllerC", ""]
+provides-dynamic-lookup:
+- "prefersStatusBarHidden"
+- "shouldAutorotate"
+- "supportedInterfaceOrientations"
+- "viewDidLoad"
+depends-top-level:
+- !private "+="
+- "/"
+- !private "=="
+- "AssignmentPrecedence"
+- "Bool"
+- "CGSize"
+- "CastingPrecedence"
+- "GameViewController"
+- !private "NSKeyedUnarchiver"
+- !private "SKView"
+- "SavedGame"
+- !private "TitleScene"
+- "UIColor"
+- !private "UIDevice"
+- "UIInterfaceOrientationMask"
+- "UIViewController"
+- !private "fatalError"
+- !private "highScore"
+- "notBlackColor"
+- "notWhiteColor"
+- !private "scores"
+- "sizeOfView"
+depends-member:
+- !private ["Sa", "subscript"]
+- !private ["SK", "subscript"]
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["So15CALayerDelegateP", "ignoresSiblingOrder"]
+- !private ["So15CALayerDelegateP", "presentScene"]
+- !private ["So6CGRectV", "size"]
+- !private ["s7CVarArgP", "ArchiveURL"]
+- !private ["s7CVarArgP", "NSKeyedUnarchiver"]
+- !private ["s7CVarArgP", "SavedGame"]
+- !private ["s7CVarArgP", "TitleScene"]
+- !private ["s7CVarArgP", "UIDevice"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "current"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "gameAchievements"]
+- !private ["s7CVarArgP", "highScore"]
+- !private ["s7CVarArgP", "ignoresSiblingOrder"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "loadSampleScores"]
+- !private ["s7CVarArgP", "loadScores"]
+- !private ["s7CVarArgP", "presentScene"]
+- !private ["s7CVarArgP", "scaleMode"]
+- !private ["s7CVarArgP", "score"]
+- !private ["s7CVarArgP", "scores"]
+- !private ["s7CVarArgP", "sizeOfView"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "unarchiveObject"]
+- !private ["s7CVarArgP", "userInterfaceIdiom"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["Sl", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "ArchiveURL"]
+- !private ["s28CustomDebugStringConvertibleP", "NSKeyedUnarchiver"]
+- !private ["s28CustomDebugStringConvertibleP", "SavedGame"]
+- !private ["s28CustomDebugStringConvertibleP", "TitleScene"]
+- !private ["s28CustomDebugStringConvertibleP", "UIDevice"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "gameAchievements"]
+- !private ["s28CustomDebugStringConvertibleP", "highScore"]
+- !private ["s28CustomDebugStringConvertibleP", "ignoresSiblingOrder"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "loadSampleScores"]
+- !private ["s28CustomDebugStringConvertibleP", "loadScores"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "presentScene"]
+- !private ["s28CustomDebugStringConvertibleP", "scaleMode"]
+- !private ["s28CustomDebugStringConvertibleP", "score"]
+- !private ["s28CustomDebugStringConvertibleP", "scores"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "sizeOfView"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "unarchiveObject"]
+- !private ["s28CustomDebugStringConvertibleP", "userInterfaceIdiom"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s17CustomReflectableP", "size"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "ArchiveURL"]
+- !private ["s23CustomStringConvertibleP", "NSKeyedUnarchiver"]
+- !private ["s23CustomStringConvertibleP", "SavedGame"]
+- !private ["s23CustomStringConvertibleP", "TitleScene"]
+- !private ["s23CustomStringConvertibleP", "UIDevice"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "gameAchievements"]
+- !private ["s23CustomStringConvertibleP", "highScore"]
+- !private ["s23CustomStringConvertibleP", "ignoresSiblingOrder"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "loadSampleScores"]
+- !private ["s23CustomStringConvertibleP", "loadScores"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "presentScene"]
+- !private ["s23CustomStringConvertibleP", "scaleMode"]
+- !private ["s23CustomStringConvertibleP", "score"]
+- !private ["s23CustomStringConvertibleP", "scores"]
+- !private ["s23CustomStringConvertibleP", "sizeOfView"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "unarchiveObject"]
+- !private ["s23CustomStringConvertibleP", "userInterfaceIdiom"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "path"]
+- !private ["Se", "size"]
+- !private ["Se", "subscript"]
+- !private ["SE", "path"]
+- !private ["SE", "size"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "ArchiveURL"]
+- !private ["SQ", "NSKeyedUnarchiver"]
+- !private ["SQ", "SavedGame"]
+- !private ["SQ", "TitleScene"]
+- !private ["SQ", "UIDevice"]
+- ["SQ", ""]
+- !private ["SQ", "all"]
+- !private ["SQ", "allButUpsideDown"]
+- !private ["SQ", "aspectFill"]
+- !private ["SQ", "current"]
+- !private ["SQ", "fatalError"]
+- !private ["SQ", "frame"]
+- !private ["SQ", "gameAchievements"]
+- !private ["SQ", "highScore"]
+- !private ["SQ", "ignoresSiblingOrder"]
+- ["SQ", "init"]
+- !private ["SQ", "loadSampleScores"]
+- !private ["SQ", "loadScores"]
+- !private ["SQ", "path"]
+- !private ["SQ", "phone"]
+- !private ["SQ", "presentScene"]
+- !private ["SQ", "scaleMode"]
+- !private ["SQ", "score"]
+- !private ["SQ", "scores"]
+- !private ["SQ", "size"]
+- !private ["SQ", "sizeOfView"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "unarchiveObject"]
+- !private ["SQ", "userInterfaceIdiom"]
+- !private ["SQ", "view"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["s25ExpressibleByArrayLiteralP", "all"]
+- !private ["s25ExpressibleByArrayLiteralP", "allButUpsideDown"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["So19GKSceneRootNodeTypeP", "init"]
+- !private ["So19GKSceneRootNodeTypeP", "scaleMode"]
+- ["10WhackAMole18GameViewControllerC", "Bool"]
+- !private ["10WhackAMole18GameViewControllerC", "NSKeyedUnarchiver"]
+- !private ["10WhackAMole18GameViewControllerC", "SKView"]
+- ["10WhackAMole18GameViewControllerC", "SavedGame"]
+- !private ["10WhackAMole18GameViewControllerC", "TitleScene"]
+- !private ["10WhackAMole18GameViewControllerC", "UIDevice"]
+- ["10WhackAMole18GameViewControllerC", "UIInterfaceOrientationMask"]
+- ["10WhackAMole18GameViewControllerC", "deinit"]
+- !private ["10WhackAMole18GameViewControllerC", "fatalError"]
+- !private ["10WhackAMole18GameViewControllerC", "gameAchievements"]
+- !private ["10WhackAMole18GameViewControllerC", "highScore"]
+- ["10WhackAMole18GameViewControllerC", "init"]
+- !private ["10WhackAMole18GameViewControllerC", "loadSampleScores"]
+- !private ["10WhackAMole18GameViewControllerC", "loadScores"]
+- ["10WhackAMole18GameViewControllerC", "prefersStatusBarHidden"]
+- !private ["10WhackAMole18GameViewControllerC", "scores"]
+- ["10WhackAMole18GameViewControllerC", "shouldAutorotate"]
+- !private ["10WhackAMole18GameViewControllerC", "sizeOfView"]
+- ["10WhackAMole18GameViewControllerC", "supportedInterfaceOrientations"]
+- !private ["10WhackAMole18GameViewControllerC", "view"]
+- ["10WhackAMole18GameViewControllerC", "viewDidLoad"]
+- !private ["SH", "ArchiveURL"]
+- !private ["SH", "NSKeyedUnarchiver"]
+- !private ["SH", "SavedGame"]
+- !private ["SH", "TitleScene"]
+- !private ["SH", "UIDevice"]
+- ["SH", ""]
+- !private ["SH", "aspectFill"]
+- !private ["SH", "current"]
+- !private ["SH", "fatalError"]
+- !private ["SH", "frame"]
+- !private ["SH", "gameAchievements"]
+- !private ["SH", "highScore"]
+- !private ["SH", "ignoresSiblingOrder"]
+- ["SH", "init"]
+- !private ["SH", "loadSampleScores"]
+- !private ["SH", "loadScores"]
+- !private ["SH", "path"]
+- !private ["SH", "phone"]
+- !private ["SH", "presentScene"]
+- !private ["SH", "scaleMode"]
+- !private ["SH", "score"]
+- !private ["SH", "scores"]
+- !private ["SH", "sizeOfView"]
+- !private ["SH", "subscript"]
+- !private ["SH", "unarchiveObject"]
+- !private ["SH", "userInterfaceIdiom"]
+- !private ["SH", "view"]
+- !private ["SH", "viewDidLoad"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["So7NSCoderC", "unarchiveObject"]
+- !private ["So8NSCodingP", "ArchiveURL"]
+- !private ["So8NSCodingP", "NSKeyedUnarchiver"]
+- !private ["So8NSCodingP", "SavedGame"]
+- !private ["So8NSCodingP", "TitleScene"]
+- !private ["So8NSCodingP", "UIDevice"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "fatalError"]
+- !private ["So8NSCodingP", "frame"]
+- !private ["So8NSCodingP", "gameAchievements"]
+- !private ["So8NSCodingP", "highScore"]
+- !private ["So8NSCodingP", "ignoresSiblingOrder"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "loadSampleScores"]
+- !private ["So8NSCodingP", "loadScores"]
+- !private ["So8NSCodingP", "presentScene"]
+- !private ["So8NSCodingP", "scaleMode"]
+- !private ["So8NSCodingP", "score"]
+- !private ["So8NSCodingP", "scores"]
+- !private ["So8NSCodingP", "sizeOfView"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "scaleMode"]
+- !private ["So26NSExtensionRequestHandlingP", "NSKeyedUnarchiver"]
+- !private ["So26NSExtensionRequestHandlingP", "SavedGame"]
+- !private ["So26NSExtensionRequestHandlingP", "TitleScene"]
+- !private ["So26NSExtensionRequestHandlingP", "UIDevice"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "fatalError"]
+- !private ["So26NSExtensionRequestHandlingP", "gameAchievements"]
+- !private ["So26NSExtensionRequestHandlingP", "highScore"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "loadSampleScores"]
+- !private ["So26NSExtensionRequestHandlingP", "loadScores"]
+- !private ["So26NSExtensionRequestHandlingP", "scores"]
+- !private ["So26NSExtensionRequestHandlingP", "sizeOfView"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- !private ["So17NSKeyedUnarchiverC", "unarchiveObject"]
+- !private ["So8NSObjectC", "ArchiveURL"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "NSKeyedUnarchiver"]
+- !private ["So8NSObjectC", "SKView"]
+- ["So8NSObjectC", "SavedGame"]
+- !private ["So8NSObjectC", "TitleScene"]
+- !private ["So8NSObjectC", "UIDevice"]
+- ["So8NSObjectC", "UIInterfaceOrientationMask"]
+- !private ["So8NSObjectC", "current"]
+- !private ["So8NSObjectC", "fatalError"]
+- !private ["So8NSObjectC", "frame"]
+- ["So8NSObjectC", "gameAchievements"]
+- !private ["So8NSObjectC", "highScore"]
+- !private ["So8NSObjectC", "ignoresSiblingOrder"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "loadSampleScores"]
+- ["So8NSObjectC", "loadScores"]
+- ["So8NSObjectC", "prefersStatusBarHidden"]
+- !private ["So8NSObjectC", "presentScene"]
+- !private ["So8NSObjectC", "scaleMode"]
+- !private ["So8NSObjectC", "score"]
+- !private ["So8NSObjectC", "scores"]
+- ["So8NSObjectC", "shouldAutorotate"]
+- !private ["So8NSObjectC", "sizeOfView"]
+- ["So8NSObjectC", "supportedInterfaceOrientations"]
+- !private ["So8NSObjectC", "unarchiveObject"]
+- !private ["So8NSObjectC", "userInterfaceIdiom"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "ArchiveURL"]
+- !private ["So8NSObjectP", "NSKeyedUnarchiver"]
+- !private ["So8NSObjectP", "SavedGame"]
+- !private ["So8NSObjectP", "TitleScene"]
+- !private ["So8NSObjectP", "UIDevice"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "current"]
+- !private ["So8NSObjectP", "fatalError"]
+- !private ["So8NSObjectP", "frame"]
+- !private ["So8NSObjectP", "gameAchievements"]
+- !private ["So8NSObjectP", "highScore"]
+- !private ["So8NSObjectP", "ignoresSiblingOrder"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "loadSampleScores"]
+- !private ["So8NSObjectP", "loadScores"]
+- !private ["So8NSObjectP", "presentScene"]
+- !private ["So8NSObjectP", "scaleMode"]
+- !private ["So8NSObjectP", "score"]
+- !private ["So8NSObjectP", "scores"]
+- !private ["So8NSObjectP", "sizeOfView"]
+- !private ["So8NSObjectP", "unarchiveObject"]
+- !private ["So8NSObjectP", "userInterfaceIdiom"]
+- !private ["So8NSObjectP", "view"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "scaleMode"]
+- !private ["s9OptionSetP", "all"]
+- !private ["s9OptionSetP", "allButUpsideDown"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "subscript"]
+- !private ["SY", "all"]
+- !private ["SY", "allButUpsideDown"]
+- !private ["SY", "aspectFill"]
+- !private ["SY", "phone"]
+- !private ["10Foundation20ReferenceConvertibleP", "path"]
+- !private ["So12SKEffectNodeC", "init"]
+- !private ["So12SKEffectNodeC", "scaleMode"]
+- !private ["So6SKNodeC", "init"]
+- !private ["So6SKNodeC", "scaleMode"]
+- !private ["So7SKSceneC", "init"]
+- !private ["So7SKSceneC", "scaleMode"]
+- !private ["So16SKSceneScaleModeV", "aspectFill"]
+- !private ["So6SKViewC", "ignoresSiblingOrder"]
+- !private ["So6SKViewC", "presentScene"]
+- !private ["So10SKWarpableP", "init"]
+- !private ["So10SKWarpableP", "scaleMode"]
+- !private ["10WhackAMole9SavedGameC", "ArchiveURL"]
+- !private ["10WhackAMole9SavedGameC", "deinit"]
+- !private ["10WhackAMole9SavedGameC", "init"]
+- !private ["10WhackAMole9SavedGameC", "score"]
+- !private ["ST", "subscript"]
+- !private ["s10SetAlgebraP", "all"]
+- !private ["s10SetAlgebraP", "allButUpsideDown"]
+- !private ["10WhackAMole10TitleSceneC", "deinit"]
+- !private ["10WhackAMole10TitleSceneC", "init"]
+- !private ["10WhackAMole10TitleSceneC", "scaleMode"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "ignoresSiblingOrder"]
+- !private ["So29UIAccessibilityIdentificationP", "presentScene"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So12UIAppearanceP", "ignoresSiblingOrder"]
+- !private ["So12UIAppearanceP", "presentScene"]
+- !private ["So21UIAppearanceContainerP", "NSKeyedUnarchiver"]
+- !private ["So21UIAppearanceContainerP", "SavedGame"]
+- !private ["So21UIAppearanceContainerP", "TitleScene"]
+- !private ["So21UIAppearanceContainerP", "UIDevice"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "fatalError"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- !private ["So21UIAppearanceContainerP", "gameAchievements"]
+- !private ["So21UIAppearanceContainerP", "highScore"]
+- !private ["So21UIAppearanceContainerP", "ignoresSiblingOrder"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "loadSampleScores"]
+- !private ["So21UIAppearanceContainerP", "loadScores"]
+- !private ["So21UIAppearanceContainerP", "presentScene"]
+- !private ["So21UIAppearanceContainerP", "scores"]
+- !private ["So21UIAppearanceContainerP", "sizeOfView"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So7UIColorC", "init"]
+- !private ["So18UIContentContainerP", "NSKeyedUnarchiver"]
+- !private ["So18UIContentContainerP", "SavedGame"]
+- !private ["So18UIContentContainerP", "TitleScene"]
+- !private ["So18UIContentContainerP", "UIDevice"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "fatalError"]
+- !private ["So18UIContentContainerP", "gameAchievements"]
+- !private ["So18UIContentContainerP", "highScore"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "loadSampleScores"]
+- !private ["So18UIContentContainerP", "loadScores"]
+- !private ["So18UIContentContainerP", "scores"]
+- !private ["So18UIContentContainerP", "sizeOfView"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So17UICoordinateSpaceP", "ignoresSiblingOrder"]
+- !private ["So17UICoordinateSpaceP", "presentScene"]
+- !private ["So8UIDeviceC", "current"]
+- !private ["So8UIDeviceC", "userInterfaceIdiom"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "ignoresSiblingOrder"]
+- !private ["So13UIDynamicItemP", "presentScene"]
+- !private ["So18UIFocusEnvironmentP", "NSKeyedUnarchiver"]
+- !private ["So18UIFocusEnvironmentP", "SavedGame"]
+- !private ["So18UIFocusEnvironmentP", "TitleScene"]
+- !private ["So18UIFocusEnvironmentP", "UIDevice"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "fatalError"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- !private ["So18UIFocusEnvironmentP", "gameAchievements"]
+- !private ["So18UIFocusEnvironmentP", "highScore"]
+- !private ["So18UIFocusEnvironmentP", "ignoresSiblingOrder"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "loadSampleScores"]
+- !private ["So18UIFocusEnvironmentP", "loadScores"]
+- !private ["So18UIFocusEnvironmentP", "presentScene"]
+- !private ["So18UIFocusEnvironmentP", "scaleMode"]
+- !private ["So18UIFocusEnvironmentP", "scores"]
+- !private ["So18UIFocusEnvironmentP", "sizeOfView"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So11UIFocusItemP", "ignoresSiblingOrder"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "presentScene"]
+- !private ["So11UIFocusItemP", "scaleMode"]
+- !private ["So20UIFocusItemContainerP", "frame"]
+- !private ["So20UIFocusItemContainerP", "ignoresSiblingOrder"]
+- !private ["So20UIFocusItemContainerP", "presentScene"]
+- !private ["So26UIInterfaceOrientationMaskV", "all"]
+- !private ["So26UIInterfaceOrientationMaskV", "allButUpsideDown"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSKeyedUnarchiver"]
+- !private ["So30UIPasteConfigurationSupportingP", "SavedGame"]
+- !private ["So30UIPasteConfigurationSupportingP", "TitleScene"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIDevice"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "fatalError"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "gameAchievements"]
+- !private ["So30UIPasteConfigurationSupportingP", "highScore"]
+- !private ["So30UIPasteConfigurationSupportingP", "ignoresSiblingOrder"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "loadSampleScores"]
+- !private ["So30UIPasteConfigurationSupportingP", "loadScores"]
+- !private ["So30UIPasteConfigurationSupportingP", "presentScene"]
+- !private ["So30UIPasteConfigurationSupportingP", "scaleMode"]
+- !private ["So30UIPasteConfigurationSupportingP", "scores"]
+- !private ["So30UIPasteConfigurationSupportingP", "sizeOfView"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "NSKeyedUnarchiver"]
+- !private ["So11UIResponderC", "SKView"]
+- ["So11UIResponderC", "SavedGame"]
+- !private ["So11UIResponderC", "TitleScene"]
+- !private ["So11UIResponderC", "UIDevice"]
+- ["So11UIResponderC", "UIInterfaceOrientationMask"]
+- !private ["So11UIResponderC", "fatalError"]
+- !private ["So11UIResponderC", "frame"]
+- ["So11UIResponderC", "gameAchievements"]
+- !private ["So11UIResponderC", "highScore"]
+- !private ["So11UIResponderC", "ignoresSiblingOrder"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "loadSampleScores"]
+- ["So11UIResponderC", "loadScores"]
+- ["So11UIResponderC", "prefersStatusBarHidden"]
+- !private ["So11UIResponderC", "presentScene"]
+- !private ["So11UIResponderC", "scaleMode"]
+- !private ["So11UIResponderC", "scores"]
+- ["So11UIResponderC", "shouldAutorotate"]
+- !private ["So11UIResponderC", "sizeOfView"]
+- ["So11UIResponderC", "supportedInterfaceOrientations"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "NSKeyedUnarchiver"]
+- !private ["So30UIResponderStandardEditActionsP", "SavedGame"]
+- !private ["So30UIResponderStandardEditActionsP", "TitleScene"]
+- !private ["So30UIResponderStandardEditActionsP", "UIDevice"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "fatalError"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "gameAchievements"]
+- !private ["So30UIResponderStandardEditActionsP", "highScore"]
+- !private ["So30UIResponderStandardEditActionsP", "ignoresSiblingOrder"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "loadSampleScores"]
+- !private ["So30UIResponderStandardEditActionsP", "loadScores"]
+- !private ["So30UIResponderStandardEditActionsP", "presentScene"]
+- !private ["So30UIResponderStandardEditActionsP", "scaleMode"]
+- !private ["So30UIResponderStandardEditActionsP", "scores"]
+- !private ["So30UIResponderStandardEditActionsP", "sizeOfView"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "NSKeyedUnarchiver"]
+- !private ["So16UIStateRestoringP", "SavedGame"]
+- !private ["So16UIStateRestoringP", "TitleScene"]
+- !private ["So16UIStateRestoringP", "UIDevice"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "fatalError"]
+- !private ["So16UIStateRestoringP", "gameAchievements"]
+- !private ["So16UIStateRestoringP", "highScore"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "loadSampleScores"]
+- !private ["So16UIStateRestoringP", "loadScores"]
+- !private ["So16UIStateRestoringP", "scores"]
+- !private ["So16UIStateRestoringP", "sizeOfView"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "NSKeyedUnarchiver"]
+- !private ["So18UITraitEnvironmentP", "SavedGame"]
+- !private ["So18UITraitEnvironmentP", "TitleScene"]
+- !private ["So18UITraitEnvironmentP", "UIDevice"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "fatalError"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- !private ["So18UITraitEnvironmentP", "gameAchievements"]
+- !private ["So18UITraitEnvironmentP", "highScore"]
+- !private ["So18UITraitEnvironmentP", "ignoresSiblingOrder"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "loadSampleScores"]
+- !private ["So18UITraitEnvironmentP", "loadScores"]
+- !private ["So18UITraitEnvironmentP", "presentScene"]
+- !private ["So18UITraitEnvironmentP", "scores"]
+- !private ["So18UITraitEnvironmentP", "sizeOfView"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "NSKeyedUnarchiver"]
+- !private ["So23UIUserActivityRestoringP", "SavedGame"]
+- !private ["So23UIUserActivityRestoringP", "TitleScene"]
+- !private ["So23UIUserActivityRestoringP", "UIDevice"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "fatalError"]
+- !private ["So23UIUserActivityRestoringP", "frame"]
+- !private ["So23UIUserActivityRestoringP", "gameAchievements"]
+- !private ["So23UIUserActivityRestoringP", "highScore"]
+- !private ["So23UIUserActivityRestoringP", "ignoresSiblingOrder"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "loadSampleScores"]
+- !private ["So23UIUserActivityRestoringP", "loadScores"]
+- !private ["So23UIUserActivityRestoringP", "presentScene"]
+- !private ["So23UIUserActivityRestoringP", "scaleMode"]
+- !private ["So23UIUserActivityRestoringP", "scores"]
+- !private ["So23UIUserActivityRestoringP", "sizeOfView"]
+- !private ["So23UIUserActivityRestoringP", "view"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So20UIUserInterfaceIdiomV", "phone"]
+- !private ["So6UIViewC", "frame"]
+- !private ["So6UIViewC", "ignoresSiblingOrder"]
+- !private ["So6UIViewC", "presentScene"]
+- ["So16UIViewControllerC", "Bool"]
+- !private ["So16UIViewControllerC", "NSKeyedUnarchiver"]
+- !private ["So16UIViewControllerC", "SKView"]
+- ["So16UIViewControllerC", "SavedGame"]
+- !private ["So16UIViewControllerC", "TitleScene"]
+- !private ["So16UIViewControllerC", "UIDevice"]
+- ["So16UIViewControllerC", "UIInterfaceOrientationMask"]
+- ["So16UIViewControllerC", ""]
+- !private ["So16UIViewControllerC", "fatalError"]
+- ["So16UIViewControllerC", "gameAchievements"]
+- !private ["So16UIViewControllerC", "highScore"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "loadSampleScores"]
+- ["So16UIViewControllerC", "loadScores"]
+- ["So16UIViewControllerC", "prefersStatusBarHidden"]
+- !private ["So16UIViewControllerC", "scores"]
+- ["So16UIViewControllerC", "shouldAutorotate"]
+- !private ["So16UIViewControllerC", "sizeOfView"]
+- ["So16UIViewControllerC", "supportedInterfaceOrientations"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["10Foundation3URLV", "path"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "path"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "size"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- ["s26_ExpressibleByColorLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "path"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ArchiveURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSKeyedUnarchiver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SavedGame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TitleScene"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIDevice"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "current"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "gameAchievements"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "highScore"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ignoresSiblingOrder"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loadSampleScores"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loadScores"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "presentScene"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scaleMode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "score"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scores"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sizeOfView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unarchiveObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userInterfaceIdiom"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "path"]
+- !private ["s21_ObjectiveCBridgeableP", "size"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "ignoresSiblingOrder"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "presentScene"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "So15CALayerDelegateP"
+- !private "So6CGRectV"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "So19GKSceneRootNodeTypeP"
+- "10WhackAMole18GameViewControllerC"
+- "SH"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So7NSCoderC"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- !private "So17NSKeyedUnarchiverC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- !private "s9OptionSetP"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "So12SKEffectNodeC"
+- !private "So6SKNodeC"
+- !private "So7SKSceneC"
+- !private "So16SKSceneScaleModeV"
+- !private "So6SKViewC"
+- !private "So10SKWarpableP"
+- !private "10WhackAMole9SavedGameC"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "10WhackAMole10TitleSceneC"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So7UIColorC"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So8UIDeviceC"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So26UIInterfaceOrientationMaskV"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So20UIUserInterfaceIdiomV"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "10Foundation3URLV"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- "s26_ExpressibleByColorLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GameplayKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/GameplayKit.framework/Headers/GameplayKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "4ee56a6181ef696ea8f06eafb8e491af"
